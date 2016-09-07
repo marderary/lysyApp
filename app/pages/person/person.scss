@@ -1,2 +1,85 @@
 .person {
+
 }
+
+.header{
+
+  height: 120px;
+  width: 100%;
+  background-color: #f53d3d;
+
+}
+
+
+.header img{
+  max-width: 80px;
+  max-height: 80px;
+  border-radius: 40px;
+
+}
+
+.header button{
+  color: white;
+  font-size: 16px;
+
+}
+
+.first-grid{
+  text-align: center;
+
+}
+.yu-e{
+  border-right: solid 1px darkgrey;
+}
+.you-hui{
+
+  border-right: solid 1px darkgrey;
+}
+.ji-fen{
+
+}
+
+.yu-e h4{
+  font-size: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: orange;
+}
+.yu-e h6{
+  font-size: 10px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: darkgray;
+}
+
+.you-hui h4{
+  font-size: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: red;
+}
+.you-hui h6{
+  font-size: 10px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: darkgray;
+}
+
+.ji-fen h4{
+  font-size: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: green;
+}
+.ji-fen h6{
+  font-size: 10px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: darkgray;
+}
+
+.first-list{
+  border-top: solid 5px #eeeeee;
+}
+
+

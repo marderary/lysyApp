@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar no-border-bottom no-shadow danger>
+    <ion-buttons left no-padding>
+      <button (click)="dissmis()">
+        <ion-icon name="arrow-back"></ion-icon>
+        <span showWhen="ios">返回</span>
+      </button>
+    </ion-buttons>
+    <ion-title>用户登录</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding class="login">
+
+  <ion-list>
+    <ion-item>
+      <ion-label floating>用户名</ion-label>
+      <ion-input type="text" value=""></ion-input>
+    </ion-item>
+
+    <ion-item clear>
+      <ion-label floating>密码</ion-label>
+      <ion-input type="password" value=""></ion-input>
+    </ion-item>
+  </ion-list>
+
+
+  <button block danger>登录</button>
+
+  <!--<ion-buttons end>-->
+    <button >忘记密码?</button>
+    <button right margin-right>没有账号,注册一个</button>
+  <!--</ion-buttons>-->
+
+</ion-content>

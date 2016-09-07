@@ -1,11 +1,57 @@
-<ion-header>
-  <ion-navbar>
+<ion-header no-shadow>
+  <ion-toolbar themeColor no-border no-border-bottom>
     <ion-title>
       个人中心
     </ion-title>
-  </ion-navbar>
+  </ion-toolbar>
 </ion-header>
 
-<ion-content padding class="person">
-  个人中心
+<ion-content class="person">
+
+  <ion-item class="header" no-lines no-border>
+    <ion-avatar item-left>
+      <img src="img/person/avatar.png" (tap)="loginClick()"/>
+    </ion-avatar>
+    <button clear (click)="loginClick()">点击登录</button>
+  </ion-item>
+
+  <ion-grid class="first-grid">
+    <ion-row>
+      <ion-col width-33 class="yu-e">
+        <h4>89.00
+          <small>元</small>
+        </h4>
+        <h6>余额</h6>
+      </ion-col>
+      <ion-col width-33 class="you-hui">
+        <h4>3
+          <small>个</small>
+        </h4>
+        <h6>优惠</h6>
+
+      </ion-col>
+      <ion-col width-33 class="ji-fen">
+        <h4>3987
+          <small>分</small>
+        </h4>
+        <h6>积分</h6>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-list class="first-list">
+    <ion-item>
+      <ion-icon name="home" item-left></ion-icon>
+      收货地址
+    </ion-item>
+    <ion-item>
+      <ion-icon name="home" item-left></ion-icon>
+      收货地址
+    </ion-item>
+    <ion-item>
+      <ion-icon name="home" item-left></ion-icon>
+      收货地址
+    </ion-item>
+  </ion-list>
+
 </ion-content>

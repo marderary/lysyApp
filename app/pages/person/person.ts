@@ -1,10 +1,17 @@
 import {Component} from '@angular/core';
-import {NavController} from 'ionic-angular';
+import {ModalController} from 'ionic-angular';
+import  {login} from '../login/login';
 
 @Component({
   templateUrl: 'build/pages/person/person.html'
 })
 export class PersonPage {
-  constructor(private navCtrl: NavController) {
+  constructor(private modalCtrl: ModalController) {
+  }
+
+  loginClick() {
+    let modal = this.modalCtrl.create(login);
+    modal.present();
+
   }
 }
