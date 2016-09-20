@@ -30,7 +30,19 @@ export class TabsPage {
 
   ionViewDidEnter(){
 
-    this.tabRef.select(3);
+    console.log("ionViewDidEnter");
+
+    this.tabRef.select(0);
 
   }
+
+  ionViewDidLoad(){
+
+    console.log("ionViewDidLoad");
+  }
+
+  ionViewDidLeave(){
+
+  }
+
 }
